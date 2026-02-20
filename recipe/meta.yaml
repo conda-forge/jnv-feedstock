@@ -1,5 +1,5 @@
 {% set name = "jnv" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name | lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ynqa/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 03223fb20a4c65c2610b94e6208b65098e6b3fe836d3deea75931a5c808f4869
+  sha256: 767226c67378381d1e71ffe0e631a5b5ffc00e957a05780a9b23b6a65023bb44
 
 build:
   number: 0
